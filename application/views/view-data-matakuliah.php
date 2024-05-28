@@ -36,6 +36,13 @@ Tampil Data Mata Kuliah
 <?= $sks; ?>
 </td>
 </tr>
+        <tr>
+        <td>Status MTK</td>
+        <td>:</td>
+        <td>
+        <?= $stat; ?>
+        </td>
+        </tr>
 <tr>
 <td colspan="3" align="center">
 <a href="<?= base_url('matakuliah'); ?>">Kembali</a>
